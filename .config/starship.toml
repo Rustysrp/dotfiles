@@ -1,0 +1,29 @@
+format = """
+$username\
+$directory\
+$git_branch\
+$git_status\
+"""
+
+add_newline = false
+
+[username]
+show_always = true
+style_user = "fg:#939AFF"
+style_root = "fg:#939AFF"
+format = "[ $user]($style bold)"
+
+[directory]
+style = "fg:#DBAAEF"
+format = "[ $path ]($style bold)"
+truncation_length = 3
+truncation_symbol = "../"
+
+[git_branch]
+symbol = "?"
+style = "fg:#FAAA9F"
+format = '[$symbol $branch ]($style bold)'
+
+[git_status]
+style = "fg:#F36003"
+format = '[($all_status$ahead_behind )](#style bold)'
