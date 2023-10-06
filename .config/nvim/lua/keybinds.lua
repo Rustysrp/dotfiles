@@ -1,4 +1,4 @@
--- Functional wrapper for mapping custom keybindings
+-- Functional wrapper for mapping custom keybinds
 function map(mode, lhs, rhs, opts)
     local options = { noremap = true }
     if opts then

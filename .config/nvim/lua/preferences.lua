@@ -2,8 +2,6 @@
 local o = vim.o
 local A = vim.api
 
--- Vimtex config
-
 -- Colors and theme
 vim.cmd "colorscheme gotham"
 o.background = 'dark'

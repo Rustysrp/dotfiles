@@ -1,4 +1,4 @@
--- Call required files
+-- Call required file
 
 -- Set termguicolors to true before plugins are loaded
 vim.opt.termguicolors = true
